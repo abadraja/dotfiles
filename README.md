@@ -38,3 +38,9 @@ To update all the dotfiles in the user's home directory:
 ```
 
 As you can see, the update helper uses the exact same syntax as the installer.
+
+## Useful commands/links:
+- [Trackpoint config](https://askubuntu.com/questions/37824/what-is-the-best-way-to-configure-a-thinkpads-trackpoint)
+```
+echo 65 | sudo tee /sys/devices/platform/i8042/serio1/serio2/sensitivity # Trackpoint sensitivity
+```
