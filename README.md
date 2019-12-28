@@ -49,4 +49,7 @@ echo 65 | sudo tee /sys/devices/platform/i8042/serio1/serio2/sensitivity # Track
 ## Side notes
 Sometimes, durring installation, some programs such as spotify, betterlockscreen, etc. fail do download.
 A solution to this could be to install them again:
+
 `yay -S betterlockscreen spotify`
+
+# Dont forget to run custom_install_scripts!
