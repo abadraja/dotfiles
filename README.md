@@ -52,4 +52,4 @@ A solution to this could be to install them again:
 
 `yay -S betterlockscreen spotify`
 
-# Dont forget to run custom_install_scripts!
+**Dont forget to run custom_install_scripts!**
