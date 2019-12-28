@@ -45,3 +45,8 @@ As you can see, the update helper uses the exact same syntax as the installer.
 ```
 echo 65 | sudo tee /sys/devices/platform/i8042/serio1/serio2/sensitivity # Trackpoint sensitivity
 ```
+
+## Side notes
+Sometimes, durring installation, some programs such as spotify, betterlockscreen, etc. fail do download.
+A solution to this could be to install them again:
+`yay -S betterlockscreen spotify`
