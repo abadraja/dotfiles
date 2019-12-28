@@ -44,7 +44,9 @@ As you can see, the update helper uses the exact same syntax as the installer.
 - [Trackpad config](https://cravencode.com/post/essentials/enable-tap-to-click-in-i3wm/)
 - [Backup Tool](https://snapcraft.io/install/deja-dup/arch)
 ```
-echo 65 | sudo tee /sys/devices/platform/i8042/serio1/serio2/sensitivity # Trackpoint sensitivity
+echo 65 | sudo tee /sys/devices/platform/i8042/serio1/serio2/sensitivity; # Trackpoint sensitivity
+sudo systemctl enable fstrim.timer
+
 ```
 
 ## Side notes
